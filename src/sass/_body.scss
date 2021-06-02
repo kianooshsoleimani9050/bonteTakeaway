@@ -1,7 +1,5 @@
 .main {
   position: relative;
-  overflow-x: hidden;
-  overflow-y: scroll;
   color: #fffcf2;
   background-color: #403d39;
   height: 80vh;
@@ -13,7 +11,6 @@
   height: 100%;
   animation-name: fade;
   animation-duration: 1s;
-  animation-delay: 1s;
 }
 .text-in-main {
   background-image: linear-gradient(
