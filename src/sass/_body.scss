@@ -1,7 +1,10 @@
 .main {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
   color: #fffcf2;
   background-color: #403d39;
-  height: 79vh;
+  height: 80vh;
 }
 .body {
   background-position: center;
