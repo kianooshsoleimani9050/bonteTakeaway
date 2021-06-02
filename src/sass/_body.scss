@@ -1,8 +1,6 @@
 .main {
-  position: relative;
   color: #fffcf2;
   background-color: #403d39;
-  height: 80vh;
 }
 .body {
   background-position: center;
@@ -11,6 +9,8 @@
   height: 100%;
   animation-name: fade;
   animation-duration: 1s;
+  height: 80vh;
+  width: 100%;
 }
 .text-in-main {
   background-image: linear-gradient(
