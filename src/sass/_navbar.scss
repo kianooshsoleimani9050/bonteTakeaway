@@ -27,3 +27,13 @@ li:hover {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.navbar-menu {
+  font-size: 22px;
+  color: #fffcf2;
+  background-color: #252422;
+  position: fixed;
+  z-index: 1;
+}
+.li-hidden-menu {
+  border-bottom: solid #ccc5b9;
+}
