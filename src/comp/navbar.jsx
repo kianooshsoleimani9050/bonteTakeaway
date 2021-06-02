@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Menu from "./menu";
 const Navbar = () => {
   return (
     <div className="p-0 m-0  navbar d-flex  justify-content-between align-items-center">

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Main from "../main";
 import Menu from "../menu";
 const RouterPage = () => {
