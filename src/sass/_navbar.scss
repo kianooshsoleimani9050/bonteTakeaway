@@ -39,3 +39,8 @@ li:hover {
 .li-hidden-menu {
   border-bottom: solid #ccc5b9;
 }
+@media screen and (max-width: "578px") {
+  .logo-name {
+    font-size: 18px;
+  }
+}
