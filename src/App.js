@@ -5,17 +5,15 @@ import Navbar from "./comp/navbar";
 import Footer from "./comp/footer";
 function App() {
   return (
-    <>
+    <div className="main">
       <Router>
         <Navbar />
         <Switch>
-          <div className="main">
-            <RouterPage />
-          </div>
+          <RouterPage />
         </Switch>
         <Footer />
       </Router>
-    </>
+    </div>
   );
 }
 
