@@ -27,7 +27,7 @@ const Navbar = () => {
             <li className="p-0 m-3">Menu</li>
           </Link>
           <li className="p-0 m-3">About </li>
-          <li className="p-0 m-3">Contact us</li>
+          <li className="p-0 m-3">Contact</li>
         </ul>
         <div className="col-md-4 d-none d-md-flex"></div>
         <div className="d-flex flex-column col-4 d-sm-none justiy-content-center align-items-end">
