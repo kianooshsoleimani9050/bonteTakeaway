@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FaCoffee } from "react-icons/fa";
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -20,13 +20,23 @@ const Navbar = () => {
         </div>
 
         <ul className="p-1 m-0 col-md-4 col-sm-6 d-none d-sm-flex justify-content-center align-items-center">
-          <Link className="link text-decoration-none" to="/">
+          <NavLink className="link text-decoration-none" to="/">
             <li className="p-0 m-3">Home</li>
-          </Link>
-          <Link className="link text-decoration-none" to="/menu">
+          </NavLink>
+          <NavLink
+            activeClassName="selected"
+            className="link text-decoration-none"
+            to="/menu"
+          >
             <li className="p-0 m-3">Menu</li>
-          </Link>
-          <li className="p-0 m-3">About </li>
+          </NavLink>
+          <NavLink
+            activeClassName="selected"
+            className="link text-decoration-none"
+            to="/about"
+          >
+            <li className="p-0 m-3">About</li>
+          </NavLink>
           <li className="p-0 m-3">Contact</li>
         </ul>
         <div className="col-md-4 d-none d-md-flex"></div>
@@ -45,7 +55,7 @@ const Navbar = () => {
         className={`navbar-menu w-100 ${show ? "d-flex" : "d-none"} d-sm-none `}
       >
         <ul className="p-3 m-0 w-100">
-          <Link className="link text-decoration-none" to="/">
+          <NavLink className="link text-decoration-none" to="/">
             <li
               className="li-hidden-menu p-1 m-0 mb-2 rounded w-100"
               onClick={() => {
@@ -54,8 +64,12 @@ const Navbar = () => {
             >
               Home
             </li>
-          </Link>
-          <Link className="link text-decoration-none" to="/menu">
+          </NavLink>
+          <NavLink
+            activeClassName="selected"
+            className="link text-decoration-none"
+            to="/menu"
+          >
             <li
               className="li-hidden-menu p-1 m-0 mb-2 w-100 rounded"
               onClick={() => {
@@ -64,7 +78,7 @@ const Navbar = () => {
             >
               Menu
             </li>
-          </Link>
+          </NavLink>
           <li
             className="li-hidden-menu p-1 m-0 mb-2 w-100 rounded"
             onClick={() => {
