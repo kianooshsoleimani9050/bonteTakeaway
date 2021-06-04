@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Main = () => {
   return (
@@ -17,13 +17,14 @@ const Main = () => {
             fontSize: "20px",
           }}
         >
-          <Link
+          <NavLink
             style={{ color: "#fffcf2" }}
             className="bg-transparent text-decoration-none"
+            acti
             to="/menu"
           >
             See our menu
-          </Link>
+          </NavLink>
         </button>
       </div>
     </div>
