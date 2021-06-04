@@ -1,4 +1,15 @@
 .menu {
-  min-height: 80vh;
+  //   height: 100%;
   width: 100%;
+}
+.item-card {
+  color: #fffcf2;
+  background-color: #252422;
+}
+.img {
+  border-radius: 10px;
+  width: 200px;
+  height: 170px;
+  background-position: center;
+  background-size: cover;
 }
