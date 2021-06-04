@@ -1,5 +1,5 @@
 .menu {
-  //   height: 100%;
+  min-height: 82vh;
   width: 100%;
 }
 .item-card {
@@ -12,4 +12,16 @@
   height: 170px;
   background-position: center;
   background-size: cover;
+}
+.filter-section {
+  border-radius: 10px;
+  background-color: #252422;
+}
+.filter-list-item {
+  //   text-align: center;
+}
+.filter-list-item:visited {
+  color: #eb5e28;
+  //   text-align: center;
+  //   border-bottom: solid #fffcf2;
 }
