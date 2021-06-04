@@ -6,7 +6,13 @@ const Footer = () => {
       <div className="p-0 m-0 col-md-4 col-sm-6 col-6 d-flex flex-row justify-content-center align-items-center">
         <ul className="p-0 m-0 d-flex flex-row justify-content-center align-items-center">
           <li className="social-icon p-0 m-3 ">
-            <AiFillInstagram />
+            <a
+              className="link"
+              style={{ color: "inherits" }}
+              href="https://www.instagram.com/bonte_takeaway/"
+            >
+              <AiFillInstagram />
+            </a>
           </li>
           <li className="social-icon p-0 m-3 ">
             <FaFacebook />
