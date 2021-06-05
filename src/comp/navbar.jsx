@@ -4,7 +4,7 @@ import { FaCoffee } from "react-icons/fa";
 const Navbar = () => {
   const [show, setShow] = useState(false);
   return (
-    <>
+    <div className="navbar-container">
       <div className="p-0 m-0  navbar d-flex  justify-content-between align-items-center">
         <div className="p-2 m-0 col-md-4 col-sm-6 col-8 d-flex  justify-content-start align-items-center">
           <i className="p-0 m-1">
@@ -97,7 +97,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 
