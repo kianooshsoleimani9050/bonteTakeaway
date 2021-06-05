@@ -1,3 +1,8 @@
+.navbar-container {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 .navbar {
   color: #fffcf2;
   background-color: #252422;
