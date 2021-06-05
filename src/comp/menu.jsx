@@ -4,14 +4,14 @@ import { FaArrowCircleUp } from "react-icons/fa";
 const Menu = () => {
   // console.log(menuItem);
   const [menu, setMenu] = useState(menuItem);
-  const [showScrollBtn, setShowScrollBtn] = useState(true);
+  const [showScrollBtn, setShowScrollBtn] = useState(false);
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   const activeScrollButton = () => {
-    if (window.pageYOffset > 150) {
+    if (!showScrollBtn && window.pageYOffset > 150) {
       setShowScrollBtn(true);
-    } else if (window.pageYOffset < 150) {
+    } else if (showScrollBtn && window.pageYOffset < 150) {
       setShowScrollBtn(false);
     }
   };
