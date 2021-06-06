@@ -6,7 +6,7 @@ import Footer from "./comp/footer";
 function App() {
   return (
     <div className="main">
-      <Router>
+      <Router basename="/">
         <Navbar />
         <Switch>
           <RouterPage />
