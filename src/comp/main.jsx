@@ -4,7 +4,10 @@ const Main = () => {
   return (
     <div
       className="body p-0 m-0 d-flex flex-column justify-content-center align-items-center rounded"
-      style={{ backgroundImage: "url(/images/back.jpeg)" }}
+      style={{
+        backgroundImage:
+          "url(https://res.cloudinary.com/bonte/image/upload/v1623181348/WhatsApp_Image_2021-06-01_at_23.05.50_w9m0zi.jpg)",
+      }}
     >
       <div className="text-in-main p-0 m-0 d-flex flex-column justify-content-center align-items-center text-center">
         <h1 className="opening-title">Welcome to our Cafe</h1>

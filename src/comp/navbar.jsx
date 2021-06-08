@@ -79,14 +79,20 @@ const Navbar = () => {
               Menu
             </li>
           </NavLink>
-          <li
-            className="li-hidden-menu p-1 m-0 mb-2 w-100 rounded"
-            onClick={() => {
-              setShow(false);
-            }}
+          <NavLink
+            activeClassName="selected"
+            className="link text-decoration-none"
+            to="/about"
           >
-            About{" "}
-          </li>
+            <li
+              className="li-hidden-menu p-1 m-0 mb-2 w-100 rounded"
+              onClick={() => {
+                setShow(false);
+              }}
+            >
+              About
+            </li>
+          </NavLink>
           <li
             className="li-hidden-menu p-1 m-0 mb-2 w-100 rounded"
             onClick={() => {
