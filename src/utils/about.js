@@ -5,7 +5,7 @@ export const about = {
       "Bonte was born from an idea of creating a socialable and relaxing space where people can meat with friends , family and solo",
   },
   about_team: {
-    header: "",
+    header: "Bonte team",
     content: "",
   },
   team: [

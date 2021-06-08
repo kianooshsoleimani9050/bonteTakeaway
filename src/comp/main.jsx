@@ -8,7 +8,7 @@ const Main = () => {
     >
       <div className="text-in-main p-0 m-0 d-flex flex-column justify-content-center align-items-center text-center">
         <h1 className="opening-title">Welcome to our Cafe</h1>
-        <h3 className="">We serve you caffe and enjoy</h3>
+        <h3 className="">We serve you caffee and enjoy</h3>
         <button
           className="btn m-3"
           style={{
