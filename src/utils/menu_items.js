@@ -8,6 +8,14 @@ export const menuItem = [
       "https://res.cloudinary.com/bonte/image/upload/v1622804379/WhatsApp_Image_2021-06-04_at_14.45.53_ohv5x8.jpg",
   },
   {
+    name: "Iced Caramel Machiato",
+    price: "28 T",
+    decription: "",
+    category: "coldei_based_coffee",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425489/bonte/IcedCaramelMachiato_ColdieBasedCoffee-min_rwlmy7.png",
+  },
+  {
     name: "Oreo shake",
     price: "30 T",
     decription: "",
@@ -40,20 +48,20 @@ export const menuItem = [
       "https://res.cloudinary.com/bonte/image/upload/v1622804377/WhatsApp_Image_2021-06-04_at_14.45.54_canzif.jpg",
   },
   {
-    name: "Latte 60/40",
-    price: "21 T",
+    name: "Mocha",
+    price: "28 T",
     decription: "",
     category: "espresso_based_coffee",
     image:
       "https://res.cloudinary.com/bonte/image/upload/v1622799245/WhatsApp_Image_2021-06-04_at_14.00.29_blqibt.jpg",
   },
   {
-    name: "Latte 100",
+    name: "Latte",
     price: "24 T",
     decription: "",
     category: "espresso_based_coffee",
     image:
-      "https://res.cloudinary.com/bonte/image/upload/v1622799245/WhatsApp_Image_2021-06-04_at_14.00.29_blqibt.jpg",
+      "https://res.cloudinary.com/bonte/image/upload/v1623425509/bonte/Latte_EspressoBasedCoffee_j9aclw.png",
   },
   {
     name: "Red shake",
@@ -120,5 +128,205 @@ export const menuItem = [
     category: "shake",
     image:
       "https://res.cloudinary.com/bonte/image/upload/v1622799241/WhatsApp_Image_2021-06-04_at_14.00.23_zlalce.jpg",
+  },
+  {
+    name: "Espresso",
+    price: "19 T",
+    decription: "",
+    category: "espresso_based_coffee",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425478/bonte/AllEspressos_EspressoBasedCoffee_guz4m5.png",
+  },
+  {
+    name: "Americano",
+    price: "20 T",
+    decription: "",
+    category: "espresso_based_coffee",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425484/bonte/AllAmericanos_EspressoBasedCoffee_diasaq.jpg",
+  },
+  {
+    name: "Baros",
+    price: "28 T",
+    decription: "",
+    category: "smoothie",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425487/bonte/Baros_Smoothie_gpkzie.png",
+  },
+  {
+    name: "Barzin",
+    price: "28 T",
+    decription: "",
+    category: "smoothie",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425490/bonte/Barzin_Smoothie_bzcoxd.png",
+  },
+  {
+    name: "Colito",
+    price: "28 T",
+    decription: "",
+    category: "mocktail",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425491/bonte/Colito_Mocktail_pp6tz0.jpg",
+  },
+  {
+    name: "Cappuccino",
+    price: "24 T",
+    decription: "",
+    category: "espresso_based_coffee",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425491/bonte/Cappuccino_EspressoBasedCoffee_ejrjet.png",
+  },
+  {
+    name: "Caraco",
+    price: "28 T",
+    decription: "",
+    category: "smoothie",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425494/bonte/Caraco_Smoothie_jcjel7.png",
+  },
+  {
+    name: "Frappuccino",
+    price: "28 T",
+    decription: "",
+    category: "coldei_based_coffee",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425496/bonte/Frappuccino_ColdieBasedCoffee_ztllyl.png",
+  },
+  {
+    name: "Iced americano",
+    price: "20 T",
+    decription: "",
+    category: "coldei_based_coffee",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425500/bonte/IcedAmericano_ColdieBasedCoffee_qf4dya.png",
+  },
+  {
+    name: "Chocolate cake",
+    price: "20 T",
+    decription: "",
+    category: "sweets",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425501/bonte/ChocolateCake_Sweets_fuqow5.png",
+  },
+  {
+    name: "Corona",
+    price: "28 T",
+    decription: "",
+    category: "mocktail",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425507/bonte/Corona_Mocktail_gpxzen.jpg",
+  },
+  {
+    name: "Iced chocolate",
+    price: "24 T",
+    decription: "",
+    category: "coldie_without_coffee",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425509/bonte/IcedChocolate_ColdieWithoutCoffee_zq9oh1.png",
+  },
+  {
+    name: "Kitkat shake",
+    price: "24 T",
+    decription: "",
+    category: "shake",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425509/bonte/Kitkat_Shake_kl0nq2.png",
+  },
+  {
+    name: "Cookie",
+    price: "10 T",
+    decription: "",
+    category: "sweets",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425510/bonte/Cookie_Sweets_q5psvq.png",
+  },
+  {
+    name: "Iced latte",
+    price: "25 T",
+    decription: "",
+    category: "coldei_based_coffee",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425517/bonte/IcedLatte_ColdieBasedCoffee_erhuru.png",
+  },
+  {
+    name: "Magnum afogato",
+    price: "32 T",
+    decription: "",
+    category: "shake",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425518/bonte/MagnumAfogato_Shake_kpurfx.png",
+  },
+  {
+    name: "Lemonade",
+    price: "24 T",
+    decription: "",
+    category: "mocktail",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425521/bonte/Lemonade_Mocktail_tpvxjg.png",
+  },
+  {
+    name: "MintBerry",
+    price: "25 T",
+    decription: "",
+    category: "mocktail",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425523/bonte/MintBerry_Mocktail_j90rm6.png",
+  },
+  {
+    name: "Machiato",
+    price: "23 T",
+    decription: "",
+    category: "espresso_based_coffee",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425524/bonte/Machiato_EspressoBasedCoffee_qxyes6.png",
+  },
+  {
+    name: "PeanutButter shake",
+    price: "30 T",
+    decription: "",
+    category: "shake",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425525/bonte/PeanutButter_Shake_lhzhzn.png",
+  },
+  {
+    name: "Melon juice",
+    price: "24 T",
+    decription: "",
+    category: "smoothie",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425526/bonte/Melon_Smoothie_jyblzk.png",
+  },
+  // {
+  //   name: "Redevelvet shake",
+  //   price: "",
+  //   decription: "",
+  //   category: "shake",
+  //   image:
+  //     "https://res.cloudinary.com/bonte/image/upload/v1623425527/bonte/Redevelvet_Shake_noy53f.png",
+  // },
+  {
+    name: "Redvelvet cake",
+    price: "25 T",
+    decription: "",
+    category: "sweets",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425533/bonte/RedvelvetCake_Sweets_ihwqvm.png",
+  },
+  {
+    name: "Sizzle",
+    price: "22 T",
+    decription: "",
+    category: "mocktail",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425533/bonte/Sizzle_Mocktail_jvsvgd.png",
+  },
+  {
+    name: "Tea",
+    price: "12 T",
+    decription: "",
+    category: "hottie_without_coffee",
+    image:
+      "https://res.cloudinary.com/bonte/image/upload/v1623425534/bonte/Tea_allHerbalTeas_HottieWithoutCoffee_bfyydk.jpg",
   },
 ];
