@@ -109,6 +109,14 @@ const Menu = () => {
         >
           Coldei without coffee
         </li>
+        <li
+          className="col-md-3 col-6 p-1 m-0 mt-1 filter-list-item"
+          onClick={() => {
+            setMenu(menuItem?.filter((item) => item.category === "sweets"));
+          }}
+        >
+          Sweets
+        </li>
       </ul>
 
       <div className="p-2 m-0 d-flex row justify-content-start align-items-center">
