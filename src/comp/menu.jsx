@@ -133,9 +133,7 @@ const Menu = () => {
                   alt="bonte-item"
                 />
                 <div className="dec-container w-100">
-                  <div className="w-100 text-center">
-                    <h4>{item.decription}</h4>
-                  </div>
+                  <h4 className="w-100 text-center">{item.decription}</h4>
                 </div>
               </div>
               <div className="item-card-hanger d-flex justify-content-between align-items-center">
