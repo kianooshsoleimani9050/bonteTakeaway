@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="p-2 m-0 col-md-4 col-sm-6 col-8 d-flex  justify-content-start align-items-center">
           <i className="p-0 m-1">
             <img
-              src="/images/navbarowl.png"
+              src="/images/Icon-W-Stroke.png"
               alt="bonte"
               className="navbar-icon"
             />
