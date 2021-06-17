@@ -157,7 +157,7 @@ export const menuItem = [
   {
     name: "Barzin",
     price: "28 T",
-    decription: "Strawberry,Pineapple,Banana",
+    decription: "Strawberry ,Pineapple , Banana",
     category: "smoothie",
     image:
       "https://res.cloudinary.com/bonte/image/upload/v1623425490/bonte/Barzin_Smoothie_bzcoxd.png",
@@ -285,7 +285,7 @@ export const menuItem = [
   {
     name: "PeanutButter shake",
     price: "30 T",
-    decription: "Milk,Cream,PeanutButter,VanilaIceCream",
+    decription: "Milk, Cream, PeanutButter, VanilaIceCream",
     category: "shake",
     image:
       "https://res.cloudinary.com/bonte/image/upload/v1623425525/bonte/PeanutButter_Shake_lhzhzn.png",
