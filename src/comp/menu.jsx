@@ -132,8 +132,8 @@ const Menu = () => {
                   src={item.image}
                   alt="bonte-item"
                 />
-                <div className="dec-container">
-                  <div className="">
+                <div className="dec-container w-100">
+                  <div className="w-100 text-center">
                     <h4>{item.decription}</h4>
                   </div>
                 </div>
